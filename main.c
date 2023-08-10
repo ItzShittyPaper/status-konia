@@ -74,7 +74,7 @@ int main(int argc, char** argv) {
   		godziny = local->tm_hour;
   		minuty = local->tm_min;
 //jeśli godzina 21:37 to papież
-		if(godziny == 20 && minuty == 24){
+		if(godziny == 21 && minuty == 37){
 			generate_random_notif_2137(); play_sound_effect_2137();
 		} 
 //inaczej jeśli wylosowany rzadki koń
